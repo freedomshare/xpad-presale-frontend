@@ -1,0 +1,17 @@
+.socialIcon {
+  max-width: 12px;
+}
+
+.footerLogo {
+  max-width: 64px;
+}
+
+@media screen and (min-width: 769px) {
+  .socialIcon {
+    max-width: 32px;
+  }
+
+  .footerLogo {
+    max-width: 150px;
+  }
+}

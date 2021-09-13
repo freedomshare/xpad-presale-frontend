@@ -1,0 +1,31 @@
+.feature {
+  background: transparent
+    linear-gradient(139deg, #2d2f33 0%, #272a2e 52%, #222529 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 8px 8px 24px #090e1466;
+  border-radius: 12px;
+  max-width: 14.0625rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iconCircle {
+  background: #4579f508 0% 0% no-repeat padding-box;
+  border-radius: 48px;
+  width: 76px;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+  .feature {
+    max-width: 15.9375rem;
+  }
+
+  .iconCircle {
+    width: 96px;
+    height: 96px;
+  }
+}

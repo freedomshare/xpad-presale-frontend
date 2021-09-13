@@ -1,0 +1,17 @@
+.logoBorder {
+  border-radius: 0px 0px 69px 69px;
+}
+
+.navBg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  opacity: 1;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+}

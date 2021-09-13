@@ -1,0 +1,69 @@
+.tier {
+  background: #cccccc 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  position: relative;
+  max-width: 10.875rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tierTop {
+  background: transparent
+    linear-gradient(180deg, #cccccc 0%, #e7e7e7 46%, #cccccc 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px -10px 24px #00000073;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+}
+
+.tierLabel {
+  border: 2px solid #cccccc;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 65px;
+  left: -67px;
+  transform: rotate(-90deg);
+  color: #cccccc;
+  padding: 7px 34px;
+  font-size: 13px;
+}
+
+.bigCircle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin: 0 16px;
+  background: #aeaeae 0% 0% no-repeat padding-box;
+}
+
+.smallCircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #aeaeae 0% 0% no-repeat padding-box;
+}
+
+@media screen and (min-width: 769px) {
+  .tier {
+    min-width: 10.875rem;
+    max-width: 13.875rem;
+    margin: 3rem;
+  }
+
+  .tierLabel {
+    bottom: 70px;
+    left: -73px;
+    padding: 7px 34px;
+    font-size: 16px;
+  }
+
+  .bigCircle {
+    width: 15px;
+    height: 14px;
+  }
+
+  .smallCircle {
+    width: 10px;
+    height: 10px;
+  }
+}
